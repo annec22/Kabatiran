@@ -1,0 +1,167 @@
+/*BULLETIN*/
+
+#bulletin-cont{
+    display: block;
+    width: 65%!important;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    margin-bottom: 0px;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    padding: 20px;
+    color: #fff;
+    background: #8d938b;
+}
+
+#bull-drop-arrow{
+    margin-left: auto;
+    margin-right: auto;
+    height: 50px;
+    width: 50px;
+    background: url('pictures/post.png') 0px 0px no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.bull-drop-arrow-hover{
+    background: url('pictures/post.png') -50px 0px no-repeat!important;
+    background-size: cover!important;
+}
+
+#login-fb{
+    width: 100px;
+    height: 50px;
+    background: url('pictures/social fblogin.png') 0px 0px no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+#login-fb:hover{
+    background: url('pictures/social fblogin.png') -100px 0px no-repeat;
+    background-size: cover;
+}
+.socialcbdes{
+    height: 50px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    float: left;
+}   
+#facebookCB, #twitterCB{
+    display: none;
+}
+#twittercbdes{
+    background: url('pictures/social twitter.png') 0px 0px no-repeat;
+    background-size: cover;
+}
+#twittercbdes input[type="checkbox"]:checked{
+    background: url('pictures/social twitter.png') -100px 0px no-repeat;
+    background-size: cover;
+}
+
+#fbcbdes{
+    background: url('pictures/social fb.png') 0px 0px no-repeat;
+    background-size: cover;
+}
+
+#fblogout{
+    position: absolute;
+    float: outside;
+    top: 50px;
+}
+
+
+/*.posto-lab{
+}*/
+
+#bullForm{
+    position: relative;
+    display: block;
+}
+
+#bullTxt{
+    width: 95%;
+    height: 130px;
+    padding: 10px;
+}
+
+#social_cb{
+    height: 50px;
+    position: relative;
+    left: 2%;
+    margin: 0 5px;
+    top: -43px;
+    width: 200px;
+}
+
+#bullProv, #bulletinBtn{
+    width: 100px;
+    box-sizing:content-box;
+    -moz-box-sizing:content-box;
+    color: #fff;
+}
+
+#bulletinBtn{
+    position: relative;
+    float: right;
+    right: 2%;
+    top: -50px;
+    border: none;
+    height: 40px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    background: #16bcec;
+    border-radius: 2px;
+    box-shadow: 0px 3px 0px 0px #3293ba;
+    text-shadow:0 2px rgba(0, 0, 0, 0.3);
+    box-sizing:content-box;
+    -moz-box-sizing:content-box;
+}
+
+#bulletinBtn:hover{
+    background: none repeat scroll 0% 0% #1baae3;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+#bulletinBtn:active{
+    box-shadow: 0px 1px 0px 0px #05abdb;
+    text-shadow:0 0px rgba(0, 0, 0, 0.3);
+}
+
+#bullProv{
+    width: 200px;
+    position: relative;
+    font-weight: 500;
+}
+
+#bullForm select{
+    position: relative;
+    cursor: pointer;
+    border: none;
+    width: 200px;
+    padding: 11px;
+    margin-left: 5px;
+    background: url(pictures/downarrow.png) no-repeat #16bcec;
+    background-size: 35px;
+    background-position: 175px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    border-radius: 2px;
+    box-shadow: 0px 3px 0px 0px #3293ba;
+    text-shadow:0 2px rgba(0, 0, 0, 0.3);
+    vertical-align: middle;
+    text-transform: capitalize;
+    margin-top: 5px;
+}
+#bullForm select:hover, #bullForm select:focus{
+    background: url(pictures/downarrow.png) no-repeat right #1baae3;
+    background-position: 175px;
+    background-size: 35px;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+   

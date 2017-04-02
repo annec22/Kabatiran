@@ -1,0 +1,70 @@
+[{ "datalistID" :"1","table":"data_clientaddresses"},
+{ "datalistID" :"2","table":"data_clientcontacts"},
+{ "datalistID" :"3","table":"data_clientgradecritera"},
+{ "datalistID" :"4","table":"data_clientlogins"},
+{ "datalistID" :"5","table":"data_clientnotes"},
+
+{ "datalistID" :"6","table":"data_clients"},
+{ "datalistID" :"7","table":"data_clientserviccontractkeywordsse"},
+{ "datalistID" :"8","table":"data_clientservicecontractkeywordlinks"},
+{ "datalistID" :"9","table":"data_clientservicecontractkeywordranking"},
+{ "datalistID" :"10","table":"data_clientservicecontractkeywords"},
+
+{ "datalistID" :"11","table":"data_clientservicecontracts"},
+{ "datalistID" :"12","table":"data_clientsitelinks"},
+{ "datalistID" :"13","table":"data_clientuserdefinedfields"},
+{ "datalistID" :"14","table":"data_clientwritersbrief"},
+{ "datalistID" :"15","table":"data_cm_iwriter"},
+
+{ "datalistID" :"16","table":"data_contractdeliverables"},
+{ "datalistID" :"17","table":"data_contractprojecttasks"},
+{ "datalistID" :"18","table":"data_exportdata"},
+{ "datalistID" :"19","table":"data_files"},
+{ "datalistID" :"20","table":"data_numgradeclient"},
+
+{ "datalistID" :"21","table":"data_passwordaccessrights"},
+{ "datalistID" :"22","table":"data_projectnotes"},
+{ "datalistID" :"23","table":"data_projectdeliverables"},
+{ "datalistID" :"24","table":"data_projectstable"},
+{ "datalistID" :"25","table":"data_projecttodo"},
+
+{ "datalistID" :"26","table":"data_review"},
+{ "datalistID" :"27","table":"data_reviewdetails"},
+{ "datalistID" :"28","table":"data_serviceproviders"},
+{ "datalistID" :"29","table":"data_tasksissued"},
+{ "datalistID" :"30","table":"data_users"},
+
+{ "datalistID" :"31","table":"data_users_chat"},
+{ "datalistID" :"32","table":"data_users_messages"}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

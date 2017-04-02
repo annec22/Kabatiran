@@ -1,0 +1,11 @@
+{
+    "attribution": "", 
+    "description": "", 
+    "center": "120.8194,17.5962,10", 
+    "bounds": "120.4761,17.1487,121.1105,17.9735", 
+    "minzoom": "10", 
+    "version": "1.0.0", 
+    "template": "", 
+    "maxzoom": "11", 
+    "name": "abra_hazard_map"
+}

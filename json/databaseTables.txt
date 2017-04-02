@@ -1,0 +1,21 @@
+{
+    "DP" : "data_clientreportingpackages",
+    "DT" : "data_clientreportingtransactions",
+    "DS" : "data_clientreportsettings",
+    "DA" : "data_users",
+	"SA" : "sys_adminsystemusers",
+	"SL" : "sys_log",
+	"SC" : "sys_lu_reporting_countries",
+    "SG" : "sys_lu_reporting_languages",
+    "SE" : "sys_lu_reporting_se_countries",
+	"EN" : "sys_lu_searchenginelist",
+	"SB" : "sys_lu_systemstart",
+    "CD" : "sys_newcustdatadefaults",
+    "SP" : "sys_parameters",
+    "SR" : "sys_refintegrity",
+    "SK" : "sys_reportingpackage",
+    "SS" : "sys_security",
+    "SM" : "sys_systemmessages",
+    "SO" : "sys_systemourcustomers"
+    
+}

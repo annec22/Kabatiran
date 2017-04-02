@@ -1,0 +1,11 @@
+{
+    "attribution": "", 
+    "description": "", 
+    "center": "120.6958,16.5217,9", 
+    "bounds": "120.1135,15.6984,121.2753,17.3179", 
+    "minzoom": "9", 
+    "version": "1.0.0", 
+    "template": "", 
+    "maxzoom": "10", 
+    "name": "benguet_hazard_map"
+}

@@ -1,0 +1,369 @@
+/* 
+    Document   : mobile
+    Created on : Dec 19, 2013, 1:00:31 PM
+    Author     : Anne
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/*MEDIA QUERY FORMAT*/
+/*
+@media size{
+    -viewscontainer - content
+    -header
+}
+*/
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 320px) {
+    /*VIEWS CONTAINER*/
+    #viewsContainer{
+        /*background: blue;*/
+        width: 98%;
+        height: 200px;
+        height: auto;
+    }
+    .header{  /*HEADER*/
+        width: 100%;
+    }
+    .newNav_drop{
+        background-size: 140px;
+        width: 140px;     
+        max-height: 200px;
+    }
+    #newNavId:hover .newNav_drop{
+        height: 300px;
+        padding-top: 10px;
+    }
+    .navItem img{
+        height: 30px;
+        margin-left: 20px;
+    }
+    .newNav ul li{
+        width: 140px;
+        height: 33px;
+    }
+    .mapsmenuitem img{
+        height: 23px;
+        margin-left: 30px;
+    }
+    .logoContainer{/*PROJECT LOGO*/
+        margin-left: 60px;
+        top: -68px;
+        z-index: 999;
+    }
+    .logoContainer img{
+        height: 70px;
+    }
+    #projectAdminTitleContainer{/*PROJECT TITLE*/
+        text-align: center;
+        width: 100px;
+        height: 65px;
+        top: -90px;
+        margin-left: 113px;
+    }
+    #projectAdminTitle{
+        font-size: 30px;
+        margin-left: -135px;
+        z-index: 999999;
+/*        display: none;*/
+    }
+    #projectAdminSubtitle{
+        display: none;
+    }
+    .aceNavDrop{/*USER CONTAINER*/
+        width: 100px;
+        top: 60px;    
+        max-height: 75px;
+        left: -20px;
+        font-size: 12px;
+        text-align: center;
+    }
+    #accountInfoButton:hover .aceNavDrop{
+        height: 100px;
+    }
+    .accountInfoButton ul li{
+        width: 100px;
+        height: 33px;
+    }
+    #main-table{/*DATATABLE*/
+        max-width: 240px!important;
+        overflow-x: scroll;
+        font-size:70%;
+    }
+    table.dataTable thead th {
+        padding: 1px 1px 1px 1px;
+        font-weight: 500;
+        height: 25px;
+    }
+    table.dataTable td {
+        padding: 1px 3px;
+        height: 25px;
+        max-height: 25px;
+        min-height: 25px;
+    }
+    table.dataTable td input {
+        height: 20px;
+    }
+    table.dataTable td a {
+        height: 25px;
+        width: 25px;
+    }
+    
+    /*ALL ROUND ICONS - except header icons*/
+/*    #edit-opt,#edit-opt:hover, #del-opt, #del-opt:hover, #edit-opt2, #cancel-opt, button.resetAccBtn, #gen-opt{
+        height: 25px;
+        width: 25px;
+    }*/
+    
+}
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 321px) and (max-width:480px)    {
+    /*VIEWS CONTAINER*/
+    #viewsContainer{
+        /*background: green;*/
+        width: 98%;
+        height: 100%;
+    }
+    /*HEADER*/
+    .header{ 
+        width: 100%;
+    }
+    .newNav_drop{
+        background-size: 140px;
+        width: 140px;     
+        max-height: 200px;
+    }
+    #newNavId:hover .newNav_drop{
+        height: 200px;
+        padding-top: 10px;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+    .navItem img{
+        height: 30px;
+        margin-left: 20px;
+    }
+    .newNav ul li{
+        width: 140px;
+        height: 33px;
+    }
+    .mapsmenuitem img{
+        height: 23px;
+        margin-left: 30px;
+    }
+    
+    .logoContainer{/*PROJECT LOGO*/
+        margin-left: 60px;
+        top: -68px;
+    }
+    .logoContainer img{
+        height: 70px;
+    }
+    #projectAdminTitleContainer{/*PROJECT TITLE*/
+        text-align: center;
+        width: 100px;
+        height: 65px;
+        top: -115px;
+        margin-left: 120px;
+    }
+    #projectAdminTitle{
+        font-size: 28px;
+    }
+    #projectAdminSubtitle{
+        font-size: 10px;
+        display: block;
+        margin-left: 20px;
+        width: 50px;
+    }
+    .aceNavDrop{/*USER CONTAINER*/
+        width: 100px;
+        top: 60px;    
+        max-height: 75px;
+        left: -20px;
+        font-size: 12px;
+        text-align: center;
+    }
+    #accountInfoButton:hover .aceNavDrop{
+        height: 100px;
+    }
+    .accountInfoButton ul li{
+        width: 100px;
+        height: 33px;
+    }
+}
+ /* Smartphones */
+@media only screen and (min-width : 481px) and (max-width:768px) {
+    #viewsContainer{
+        /*background: wheat;*/
+        width: 98%;
+    }
+    /*HEADER*/
+    .header{ 
+        width: 100%;
+    }
+    .newNav_drop{
+        background-size: 160px;
+        width: 160px;     
+        max-height: 185px;
+    }
+    #newNavId:hover .newNav_drop{
+        height: 400px;
+        padding-top: 15px;
+    }
+    .navItem img{
+        height: 38px;
+        margin-left: 25px;
+    }
+    .newNav ul li{
+        width: 160px;
+        height: 38px;
+    }
+    .mapsmenu{/*MAPS MENU*/
+        padding-top: 10px;
+        top: -60px;
+        left: 160px;
+        height: 125px;
+    }
+    .mapsmenuitem img{
+        height: 23px;
+        margin-left: 30px;
+    }
+    .logoContainer{/*PROJECT LOGO*/
+        margin-left: 60px;
+        top: -73px;
+    }
+    .logoContainer img{
+        height: 90px;
+    }
+    #projectAdminTitleContainer{/*PROJECT TITLE*/
+        width: 230px;
+        height: 65px;
+        top: -115px;
+        margin-left: 160px;
+    }
+    #projectAdminTitle{
+        font-size: 50px;
+    }
+    #projectAdminSubtitle{
+        position: relative;
+        font-size: 12px;
+        display: block;
+        top: -30px;
+        left: 100px;
+        width: 70px;
+        margin-left: 30px;
+    }
+    .aceNavDrop{/*USER CONTAINER*/
+        width: 100px;
+        top: 60px;    
+        max-height: 75px;
+        left: -20px;
+        font-size: 12px;
+        text-align: center;
+    }
+    #accountInfoButton:hover .aceNavDrop{
+        height: 100px;
+    }
+    .accountInfoButton ul li{
+        width: 100px;
+        height: 33px;
+    }
+
+    
+}   
+ 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    #viewsContainer{
+        /*background: yellow;*/
+        width: 98%;
+    }
+    /*HEADER*/
+    .header{ 
+        width: 100%;
+    }
+    .newNav_drop{
+        background-size: 160px;
+        width: 160px;     
+        max-height: 350px;
+    }
+    #newNavId:hover .newNav_drop{
+        height: 400px;
+        padding-top: 15px;
+    }
+    .navItem img{
+        height: 38px;
+        margin-left: 25px;
+    }
+    .newNav ul li{
+        width: 160px;
+        height: 38px;
+    }
+    .mapsmenuitem img{
+        height: 23px;
+        margin-left: 40px;
+    }
+    .aceNavDrop{/*USER CONTAINER*/
+        width: 100px;
+        top: 60px;    
+        max-height: 75px;
+        left: -20px;
+        font-size: 12px;
+        text-align: center;
+    }
+    #accountInfoButton:hover .aceNavDrop{
+        height: 100px;
+    }
+    .accountInfoButton ul li{
+        width: 100px;
+        height: 33px;
+    }
+}
+    /* tablets and desktop */
+/* Desktops and laptops ----------- */
+@media only screen and (min-width : 1024px) and (max-width: 1824px) {
+    #viewsContainer{
+        position: relative;
+        max-width: 1824px;
+        width: 98%;
+        min-height: 600px;
+        /*background: #2c312b;*/
+    }
+    .header{ 
+        width: 98%;
+    }
+    
+    .main-content{
+        width: 98%;
+    }
+    #main-table{
+        max-width: 1824px;
+        width: 98%!important;
+        /*margin-left: 0px!important;*/
+    }
+    
+}
+/* Large screens ----------- */
+@media only screen and (min-width : 1824px) {
+    #viewsContainer{
+        position: relative;
+        /*background: #00bfa8;*/
+        max-width: 1900px;
+        width: 98%;
+        min-height: 900px;
+    }
+    
+    /*HEADER*/
+    .header{ 
+        width: 1824px;
+    }
+    
+    #main-table{
+        width: 1800px!important;
+        margin-left: -400px;
+    }
+    
+}
+ 
+

@@ -1,0 +1,92 @@
+/*@import url('/reset.css');*/
+/*
+    For the styling of the navigation
+*/
+
+.navigation{
+    height: 40px;
+    font-size: 14px;
+    color: white;
+    font-family: arial;
+    width: 100%;
+    background-color: #4b667e;
+    position : relative;
+}
+
+ul.navList{
+    margin-top: 13px;
+    list-style-type: none;
+    margin-left: -25px;
+}
+
+ul.navList li{
+    padding-bottom: 5px;
+    padding-top: 2px;
+    padding-right: 15px;
+    margin-right: 2px;
+    display: inline-block;
+    float : left;
+}
+.navigation > ul{
+    position: absolute;
+
+}
+ul.navList li:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #4b667e;
+}
+
+.dmNavList,.cronNavList{
+    list-style-type: none;
+    width: auto!important;
+    margin-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+#dmText,#cronText{
+    float: left;    
+    padding-top: 2px;
+}
+
+#dmText{
+    width : 170px;
+    text-align : right;
+    background: url('pictures/icons1.png') no-repeat -10px -18px;
+}
+
+#dmText:hover{
+    background: url('pictures/icons1.png') no-repeat -10px 3px;
+}
+
+#cronText{
+    width : 170px;
+    text-align: right;    
+    background: url('pictures/icons2.png') no-repeat -10px -18px;
+}
+
+#cronText:hover{
+    background: url('pictures/icons2.png') no-repeat -10px 3px;
+}
+
+.active{
+    background-color: #fff;
+    color: #4b667e;  
+}
+
+#dmTextActive{
+    width : 170px;
+    text-align : right;
+    background: url('pictures/icons1.png') no-repeat -10px 3px;
+}
+
+#cronTextActive{
+    width : 170px;
+    text-align: right;
+    background: url('pictures/icons2.png') no-repeat -10px 3px;
+}
+
+#dmTextActive,#cronTextActive{
+    float: left;
+    padding-top: 2px;
+}

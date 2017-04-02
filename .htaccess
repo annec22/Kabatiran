@@ -1,0 +1,11 @@
+RewriteEngine on
+RewriteCond $1 !^(index\.php|scripts|images|uploads|hazardMaps|styles|user_guide|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]
+
+# AddType TYPE/SUBTYPE EXTENSION
+AddType audio/mpeg mp3
+AddType audio/mp4 m4a
+AddType audio/ogg ogg
+AddType audio/ogg oga
+AddType audio/webm webma
+AddType audio/wav wav

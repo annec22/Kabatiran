@@ -1,0 +1,28 @@
+/* 
+    Document   : all
+    Created on : Jan 25, 2014, 4:08:55 PM
+    Author     : Anne
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face
+{
+    font-family: Roboto;
+    src: url(Roboto-Regular.TTF);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Roboto;
+    
+}
+
+.hideblock{
+    display: none!important;
+}
+.showblock{
+    display: block!important;
+}
