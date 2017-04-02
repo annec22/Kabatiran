@@ -1,0 +1,73 @@
+/* 
+    Document   : views
+    Created on : Dec 5, 2013, 7:44:38 AM
+    Author     : Anne
+    Description:
+        Purpose of the stylesheet follows.
+*/
+/* Smartphones (portrait and landscape) ----------- */
+#viewsContainer{
+    top: 90px;
+    position: relative;
+    color: black;
+    background: #2b2b2b;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    height: auto;
+    min-height: 500px;    
+    border-top: 15px solid #596257;
+    border-bottom: 4px solid #fc6749;
+}
+
+#viewsContainer div{
+    margin-top: 0px;
+}
+#logs_view .main-content{
+    position: relative;
+    top: 15px;
+}
+
+/*INNER NAVIGATION*/
+
+/*LOCATIONS - PARAMNAV*//*INBOX - VIEW REPORTS*//*HAZARD MAP - HAZNAV*/
+.innerNav{
+    margin-bottom: 40px;
+}
+.innerNav *{
+    position: relative;
+    top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #fff;
+    width: 100%;
+    margin-left: 7%;
+    height: 50px;
+}
+.innerNav select{
+    position: relative;
+    cursor: pointer;
+    border: none;
+    width: 80%;
+    padding: 10px;
+    margin-left: 5px;
+    background: url(pictures/downarrow.png) no-repeat #fc6749;
+    background-size: 40px;
+    background-position: 100%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    border-radius: 2px;
+    box-shadow: 0px 3px 0px 0px #ba3317;
+    text-shadow:0 2px rgba(0, 0, 0, 0.3);
+    vertical-align: middle;
+}
+
+.innerNav select:hover, .innerNav select:focus{
+    background: url(pictures/downarrow.png) no-repeat #d95034;
+    background-size: 40px;
+    background-position: 100%;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+

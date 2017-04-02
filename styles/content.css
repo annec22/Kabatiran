@@ -1,0 +1,280 @@
+/* 
+    Document   : content.css
+    Created on : Jan 25, 2013, 11:40:25 AM
+    Author     : Anne
+    Description: 
+        Purpose of the stylesheet follows.
+*/
+
+/*MAIN CONTENT[CLASS] - Container of a view - Child of "viewscontainer"*/
+.main-content{
+    position: relative;
+    width: 98%;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/*Exclusive for Reports Inbox*/
+
+    #repInboxMainCont{
+        position: relative;
+        top: 20px;
+    }
+
+    #reptInbox-options{
+        width: 270px;
+    }
+    
+    .repInbox-options input{
+        width: 50px;
+        height: 50px;
+        border: none;
+    }
+    
+    .repInbox-options input:hover{
+        cursor: pointer;
+    }
+    
+    /*Buttons*/
+    
+        #trashButton{
+            background: url('pictures/move-to-trash.png') 0px 0px no-repeat;
+            background-size: cover;
+        }
+        #trashButton:hover{
+            background: url('pictures/move-to-trash.png') -50px 0px no-repeat;
+            background-size: cover;
+        }
+        
+        #confirmButton{
+            background: url('pictures/mark-as-confirmed.png') 0px 0px no-repeat;
+            background-size: cover;
+        }
+        #confirmButton:hover{
+            background: url('pictures/mark-as-confirmed.png') -50px 0px no-repeat;
+            background-size: cover;
+        }
+        
+        #spamButton{
+            background: url('pictures/mark-as-spam.png') 0px 0px no-repeat;
+            background-size: cover;
+        }
+        #spamButton:hover{
+            background: url('pictures/mark-as-spam.png') -50px 0px no-repeat;
+            background-size: cover;
+        }
+        #deleteLogButton{
+            border: none;
+            text-indent: 99999px;
+            height: 50px;
+            width: 50px;
+        }
+        
+        #deleteButton, #deleteBullButton, #deleteLogButton{
+            background: url('pictures/delete-x.png') 0px 0px no-repeat;
+            background-size: cover;
+        }
+        #deleteButton:hover, #deleteBullButton:hover, #deleteLogButton:hover{
+            background: url('pictures/delete-x.png') -50px 0px no-repeat;
+            background-size: cover;
+        }
+        
+        #reload{
+            background: url('pictures/refresh-x.png') 0px 0px no-repeat;
+            background-size: cover;
+        }
+        #reload:hover{
+            background: url('pictures/refresh-x.png') -50px 0px no-repeat;
+            background-size: cover;
+        }
+        #restoreButton{
+            background: url('pictures/restore.png') 0px 0px no-repeat;
+            background-size: cover;
+        }
+        #restoreButton:hover{
+            background: url('pictures/restore.png') -50px 0px no-repeat;
+            background-size: cover;
+        }
+/*Exclusive for Directory - Contacts*/
+#exportContact{
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    border: none;
+    cursor: pointer;
+}
+#exportContact{
+    background: url('pictures/export.png') 0px 0px no-repeat;
+    background-size: cover;
+}
+#exportContact:hover{
+    background: url('pictures/export.png') -50px 0px no-repeat;
+    background-size: cover;
+}
+
+/*Exclusive for Bulletin*/
+#deleteBullButton{
+    border: none;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    cursor: pointer;
+}
+/* END MAIN CONTENT */
+
+
+/*TABLE WRAPPER - Container of table*/
+.table-wrapper, #table-wrapper{
+    position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dataTable{
+    position: relative;
+    top: -80px;
+}
+
+/* END TABLE WRAPPER*/
+
+/*BUTTONS*/
+    /*TABLE EDIT BUTTON*/
+    #edit-opt{
+        height: 50px;
+        width: 50px;
+        background: url('pictures/edit.png') 0px 0px no-repeat;
+        background-size: cover;
+    }
+    #edit-opt:hover{
+        background: url('pictures/edit.png') -50px 0px no-repeat;
+        background-size: cover;
+    }
+    /*END TABLE EDIT BUTTON*/
+    /*TABLE DELETE BUTTON*/
+    #del-opt{
+        height: 50px;
+        width: 50px;
+        background: url('pictures/delete-trash.png') 0px 0px no-repeat;
+        background-size: cover;
+    }
+    #del-opt:hover{
+        background: url('pictures/delete-trash.png') -50px 0px no-repeat;
+        background-size: cover;
+    }
+    /*END TABLE DELETE BUTTON*/
+    /*TABLE SAVE BUTTON*/
+    /*Contact - Agency, Category, Establishment Types, Brgy, Municipalities, Provinces */
+    /*a.editContact, a.editAgency, a.editCategory, a.editEstab, a.editBrgy, a.editMun, a.editProv{*/
+    #edit-opt2{
+        border: none;
+        background: url('pictures/save_1.png') -0px 0px no-repeat;
+        background-size: cover;
+        width: 50px;
+        height:50px;
+        text-indent: -9999px;
+    }
+    /*a.editContact:hover, a.editAgency:hover, a.editCategory:hover, a.editEstab:hover, a.editBrgy:hover, a.editMun:hover, a.editProv:hover{*/
+    #edit-opt2{
+    background: url('pictures/save_1.png') -50px 0px no-repeat;
+        background-size: cover;
+    }
+    /*END TABLE SAVE BUTTON*/
+    /*TABLE CANCEL BUTTON*/
+    /*Contact - Category, Establishment Types, Brgy, Municipalities, Provinces */
+    /*a.cancelContact, a.cancelCategory, a.cancelEstab, a.cancelBrgy, a.cancelMun, a.cancelProv{*/
+    #cancel-opt{
+        background: url('pictures/cancel_1.png') -0px 0px no-repeat;
+        background-size: cover;
+        width: 50px;
+        height:50px;
+
+    }
+    /*a.cancelContact:hover, a.cancelCategory:hover, a.cancelEstab:hover, a.cancelBrgy:hover, a.cancelMun:hover, a.cancelProv:hover{*/
+    #cancel-opt:hover{
+        background: url('pictures/cancel_1.png') -50px 0px no-repeat;
+        background-size: cover;
+    }
+    /*END TABLE CANCEL BUTTON*/
+    
+    /*ACCOUNT RESET BUTTON*/
+    button.resetAccBtn{
+        border: none;
+        background: url('pictures/refresh.png') -0px 0px no-repeat;
+        background-size: cover;
+        width: 50px;
+        height:50px;
+        text-indent: -9999px;
+    }
+    button.resetAccBtn:hover{
+        background: url('pictures/refresh.png') -50px 0px no-repeat;
+        background-size: cover;
+    }
+    /*END ACCOUNT RESET BUTTON*/
+    
+    /*GENERATE AUTH CODE*/
+    #gen-opt{
+        background: url('pictures/generate.png') -0px 0px no-repeat;
+        background-size: cover;
+        width: 50px;
+        height:50px;
+    }
+    
+    #gen-opt:hover{
+        background: url('pictures/generate.png') -50px 0px no-repeat;
+        background-size: cover;
+    }
+    /*END GENERATE AUTH CODE*/
+    
+    /*ADD DATA BUTTON*/
+    
+    /*END ADD DATA BUTTON*/
+/*END BUTTONS*/
+
+/*
+
+ /*TABLE*/ 
+/*ROWS HOVER*/
+tr.body-row:hover,tr.odd:hover,tr.even:hover{
+/*    background-color: #606060!important;
+*/    color: #fff;
+    background: none repeat scroll 0% 0% #777!important;
+    text-shadow:0 2px rgba(0, 0, 0, 0.3);
+}
+/*END ROWS HOVER*/
+
+/*MESSAGE*/
+/*.message{
+    font-family: "Arial", sans-serif;
+    background-size: 40px 40px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, .05) 25%, transparent 25%,
+        transparent 50%, rgba(255, 255, 255, .05) 50%, rgba(255, 255, 255, .05) 75%,
+        transparent 75%, transparent);										
+    box-shadow: inset 0 -1px 0 rgba(255,255,255,.4);
+    width: 324px;
+    border: 1px solid;
+    color: #fff;
+    padding: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-shadow: 0 1px 0 rgba(0,0,0,.5);
+    animation: animate-bg 5s linear infinite;
+    z-index: 999999;
+}
+
+.error{
+    background-color: #de4343;
+    border-color: #c43d3d;
+}
+.success{
+    background-color: #61b832;
+    border-color: #55a12c;
+}*/

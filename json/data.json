@@ -1,0 +1,51 @@
+{
+    "levels" : 
+        {
+            "0" : "0", 
+            "1" : "1", 
+            "2" : "2", 
+            "3" : "3", 
+            "4" : "4", 
+            "5" : "5", 
+            "6" : "6", 
+            "7" : "7", 
+            "8" : "8", 
+            "9" : "9"
+        },
+        
+    "types" :
+        {
+            "0" : "FORM",
+            "1" : "TAB",
+            "2" : "BUTTON"
+        },
+        
+    "codes" :
+        {
+            "0" : "AddClient",
+            "1" : "AddEditDeleteAddress",
+            "2" : "AddEditDeleteContact",
+            "3" : "AddEditDeleteContract",
+            "4" : "AddEditDeleteKeyword",
+            "5" : "AddEditDeleteLogin",
+            "6" : "AddEditDeleteNotes",
+            "7" : "ClientAddress",
+            "8" : "ClientContracts",
+            "9" : "ClientDocs",
+            "10" : "ClientInfo",
+            "11" : "ClientKeywords",
+            "12" : "ClientList",
+            "13" : "ClientLogins",
+            "14" : "ClientNotes",
+            "15" : "ClientTaskIssued",
+            "16" : "EditClient",
+            "17" : "ExportData",
+            "18" : "IssueTask",
+            "19" : "ManageSystem",
+            "20" : "Settings",
+            "21" : "ViewAllTasks",
+            "22" : "ViewClientInfo",
+            "23" : "ViewMyTasks",
+            "24" : "ViewReports"
+        }
+}

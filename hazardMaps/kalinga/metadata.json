@@ -1,0 +1,11 @@
+{
+    "attribution": "", 
+    "description": "", 
+    "center": "121.3055,17.4378,10", 
+    "bounds": "120.9354,17.1624,121.6619,17.7036", 
+    "minzoom": "10", 
+    "version": "1.0.0", 
+    "template": "", 
+    "maxzoom": "11", 
+    "name": "kalinga_hazard_map"
+}

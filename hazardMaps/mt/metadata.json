@@ -1,0 +1,11 @@
+{
+    "attribution": "", 
+    "description": "", 
+    "center": "121.2204,17.1316,9", 
+    "bounds": "120.3662,16.5559,122.0911,17.5223", 
+    "minzoom": "9", 
+    "version": "1.0.0", 
+    "template": "", 
+    "maxzoom": "10", 
+    "name": "mt_hazard_map"
+}

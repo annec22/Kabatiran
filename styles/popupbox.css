@@ -1,0 +1,117 @@
+/* 
+    Document   : popupbox
+    Created on : Feb 21, 2014, 12:55:15 AM
+    Author     : Anne
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face
+{
+    font-family: Imp;
+    src: url(Impregnable.ttf);
+}
+
+root { 
+    display: block;
+}
+
+#close{
+    float: right;
+    position: absolute;
+    right: 2px;
+    top: 9px;
+    width: 50px;
+    height: 50px;
+    z-index: 99;
+}
+
+.b-close img{
+    display: none;
+}
+
+a#close.b-close{
+    background: url('pictures/header_pictures/logout.png') 0px 0px no-repeat;
+    background-size: cover;
+}
+a#close.b-close:hover{
+    background: url('pictures/header_pictures/logout.png') -50px 0px no-repeat;
+    background-size: cover;
+}
+
+.PopUpWindowAccount, .PopUpWindowContact, .PopUpWindowBrgy, .PopUpWindowAgency, .PopUpWindowEditAgency,
+.PopUpWindowCategory, .PopUpWindowEstab, .PopUpWindowCityMun, .PopUpWindowProvince,
+.PopUpWindowAccidentType, .PopUpWindowRep, .PopUpWindowAccInfo, .PopUpWindowEditAccount,
+.PopUpWindowAccInfo, .PopUpWindowChangePw, .PopUpWindowEDir, .PopUpWindowDir,PopUpWindowEditAccount, 
+.PopUpWindowMapAdd, .PopUpWindowMapEdit{
+    background: #8d938b;
+    padding: 0;
+    border-bottom: 4px solid #fc6749;
+}
+
+#popTitle{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    background: #2b2b2b;
+    border-bottom: 4px solid #fc6749;
+    border-top: 4px solid #fc6749;
+    font-size: 30px;
+    padding-top: 10px;
+    text-align: center;
+}
+#popTitle span#title{
+    position: relative;
+    padding-left: 5px;
+}
+
+#popUp-table{
+    padding : 10px;
+    color: #000;
+}
+
+td#pright textarea, td#pright select, td#pright input{
+    border: none;
+    border-radius: 1px;
+    padding : 5px;
+    margin-right:10px;
+    margin-bottom: 3px;
+    width: 95%;
+}
+
+td#pright textarea:focus, td#pright select:focus, td#pright input:focus{
+    box-shadow: 0px 1px 0px 0px #16bcec;
+}
+
+td#pright select{
+    width: 99%;
+}
+
+#buttons button{
+    position: relative;
+    float: right;
+    right: 5%;
+    width: 80px!important;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+}
+
+button.cancel{
+    background: url('pictures/cancel_button.png') 0px 0px no-repeat;
+    background-size: cover;
+}
+button.cancel:hover{
+    background: url('pictures/cancel_button.png') -80px 0px no-repeat;
+    background-size: cover;
+}
+button.save{
+    background: url('pictures/save_button.png') 0px 0px no-repeat;
+    background-size: cover;
+}
+button.save:hover{
+    background: url('pictures/save_button.png') -80px 0px no-repeat;
+    background-size: cover;
+}

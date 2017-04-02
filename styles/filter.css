@@ -1,0 +1,86 @@
+/*
+    For the styling of the filter
+*/
+
+ul.filterInput,ul.filterInputPending{
+    list-style-type: none;
+    padding-top: 15px;
+}
+
+ul.filterInput li,ul.filterInputPending li{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.filterContainer,.filterContainerPending{
+    margin-top: -16px;
+    width: 100%;
+    position: relative;
+    height: 60px;
+    border-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #e8e8e8;
+}
+input#manualSearch-dynamic{
+    background: url(pictures/searchIcon.png);
+    background-size: 23px 23px;
+    background-repeat: no-repeat;
+    background-position: 230px;
+    padding-right:20px;
+    padding-left: 5px;  
+    padding-top: 3px;
+    padding-bottom : 3px;
+    height: 25px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    width: 230px;
+    color: black;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 2px solid #e4e4e4;
+}
+
+div.select,div.selectPending { 
+    border:2px solid #e4e4e4;
+    -moz-border-radius:4px; 
+    border-radius: 4px;
+    display: inline-block;
+}
+select#filterSelect,select#filterSelectPending {
+    padding: 5px;
+    font-size: 14px;
+    font-weight: normal;
+    width: 230px;
+    border: none;
+    outline: none;
+}
+/*select{
+    box-shadow:inset 1px 1px 3px #d8d8d8;
+    height: auto;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: normal;
+    width: 230px;
+    color: black;
+    background:transparent;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border: 2px solid #e4e4e4;
+
+}*/
+
+
+.searchDB,.selectDB{
+    font-size: 14px;
+    font-family: arial;
+    color: #283948;
+}
+
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; cursor: default; overflow: auto; font-family: arial;font-size:14px;}
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }

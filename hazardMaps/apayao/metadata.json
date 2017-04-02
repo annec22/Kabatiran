@@ -1,0 +1,11 @@
+{
+    "attribution": "", 
+    "description": "", 
+    "center": "121.1902,18.1054,9", 
+    "bounds": "120.8496,17.5079,121.5747,18.6567", 
+    "minzoom": "9", 
+    "version": "1.0.0", 
+    "template": "", 
+    "maxzoom": "11", 
+    "name": "apayao_hazard_map"
+}

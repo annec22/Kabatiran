@@ -1,0 +1,11 @@
+{
+    "attribution": "", 
+    "description": "", 
+    "center": "121.2506,16.8591,10", 
+    "bounds": "120.7617,16.4809,121.712,17.2011", 
+    "minzoom": "10", 
+    "version": "1.0.0", 
+    "template": "", 
+    "maxzoom": "11", 
+    "name": "ifugao_hazard_map"
+}

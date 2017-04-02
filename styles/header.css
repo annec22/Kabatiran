@@ -1,0 +1,330 @@
+/* 
+    Document   : header
+    Created on : January, 2013, 10:06:31 PM
+    Author     : Anne
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+@font-face
+{
+    font-family: Roboto;
+    src: url(Roboto-Regular.TTF);
+}
+    
+@font-face
+{
+    font-family: Imp;
+    src: url(Impregnable.ttf);
+}
+
+body{
+    margin : 0 auto;
+    background: #596257;
+    color: #ffffff;
+}
+
+/*HEADER CONTAINER*/
+.header-cont{
+    position: fixed;
+    width: 100%;
+    background: #2b2b2b;
+    height: 60px;
+    border-top: 15px solid #596257;
+    border-bottom: 4px solid #fc6749;
+    top: 0px;
+    z-index: 9998;
+}
+
+/*HEADER PANEL*/
+.header{
+    background: #2b2b2b;
+    height: 60px;
+    width: 1024px;
+    margin: 0 auto;
+    top: 0px;
+    z-index: 9999;
+}
+
+/*DROP DOWN*/
+.newNav{
+    position: relative;
+    font-family: Roboto;
+    z-index: 9999;
+}
+
+#newNavId{
+    position: relative;
+    top: 0px;
+    width: 50px;
+}
+
+#menuHead{
+    height: 64px;
+    width: 50px;
+}
+
+#menuHead p{
+    height: 50px;
+    width: 50px;
+    background: url('pictures/header_pictures/menu1.png') 0px 0px no-repeat;
+    background-size: cover;
+    position: relative;
+    /*vertical-align: middle;*/
+    top: 5px;
+}
+
+#menuHead p:hover{
+    height: 50px;
+    background: url('pictures/header_pictures/menu1.png') -50px 0px no-repeat;
+    background-size: cover;
+}
+
+#newNavId:hover > #menuHead p{
+    background: url('pictures/header_pictures/menu1.png') -50px 0px no-repeat;
+    background-size: cover;
+}
+
+.newNav ul{
+    list-style: none outside none;
+    z-index: 1;
+}
+
+.newNav_drop{
+    background: #2c312b;
+    background-size: 180px;
+    position: absolute;
+    width: 180px;   
+    top: 64px;    
+    max-height: 600px;
+    height: 0px;
+    visibility: hidden;
+    overflow: hidden;
+    overflow-x: hidden!important;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    
+/*	visibility: visible !important;	*/
+    z-index: 0;
+}
+
+#newNavId:hover .newNav_drop{
+    height: 490px;
+    visibility: visible;    
+    overflow-y: auto;
+    padding-top: 30px;
+    z-index: 0;
+    border-bottom: 4px solid #fc6749;
+}
+
+/*.newNav_dropped{
+    height: 490px!important;
+}*/
+.navItem img{
+    height: 50px;
+    margin-left: 25px;
+}
+
+.newNav ul li{
+    color: #ffffff;
+    position: relative;
+    width: 180px;
+    height: 53px;
+    top: 0px;
+    
+}
+
+.newNav ul li *{
+    position: relative;
+    vertical-align: middle;
+}
+
+.newNav ul li:hover{
+    background: #16bcec!important;
+}
+
+#mapsmenu{
+    display: none;
+}
+.mapsmenuitem img{
+    height: 33px;
+    margin-left: 40px;
+}
+/*#AnewNavMaps{
+    background: 
+}*/
+
+/*PROJECT LOGO*/
+.logoContainer{
+    height: 50px;
+    width: 0px;
+    position: relative;
+    margin-left: 60px;
+    top: -79px;
+    z-index: 99999;
+}
+
+.logoContainer img{
+    height: 100px;
+}
+
+/*PROJECT TITLE*/
+#projectAdminTitleContainer{
+    position: relative;
+    width: 380px;
+    height: 65px;
+    top: -120px;
+    margin-left: 200px;
+    z-index: 9999;
+    text-shadow: 3px 3px 0 #2b2b2b, -1px -1px 0 #2b2b2b, 1px -1px 0 #2b2b2b, -1px 1px 0 #2b2b2b, 1px 1px 0 #2b2b2b;
+}
+
+#projectAdminTitle{
+    font-family: Imp !important;
+    font-size: 64px;
+}
+
+#projectAdminSubtitle{
+    margin-left: 15px;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+/*USER CONTAINER*/
+
+
+#userContainer{
+    float: right;
+    position: relative;
+    left: -50px;
+    height: 50px;
+    top: -174px;
+}
+
+.welcomeContainer{
+    position: relative;
+    height: 50px;
+}
+
+.accountInfoButton{ 
+    position: relative;
+    font-family: Roboto;
+    z-index: 9999;
+}
+
+#accountInfoButton{
+    position: relative;
+    width: 50px;
+}
+
+#accIBHead{
+    height: 50px;
+    width: 50px;
+}
+
+#accIBHead p{
+    height: 50px;
+    width: 50px;
+    background: url('pictures/header_pictures/account menu.png') 0px 0px no-repeat;
+    background-size: cover;
+    position: relative;
+    /*top: -1px;*/
+}
+
+#accIBHead p:hover{
+    height: 50px;
+    background: url('pictures/header_pictures/account menu.png') -50px 0px no-repeat;
+    background-size: cover;
+}
+
+#accountInfoButton:hover > #accIBHead p{
+    background: url('pictures/header_pictures/account menu.png') -50px 0px no-repeat;
+    background-size: cover;
+}
+
+.aceNavDrop ul{
+    list-style: none outside none;
+}
+
+
+.aceNavDrop{
+    background: #2c312b;
+    position: absolute;
+    width: 160px;
+    top: 60px;    
+    max-height: 130px;
+    height: 0px;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    -o-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+    z-index: 0;
+    left: -50px;
+    border-bottom: 4px solid #fc6749;
+    /*text-align: center;*/
+}
+
+
+#accountInfoButton:hover .aceNavDrop{
+    height: 150px;
+    padding-top: 10px;
+    visibility: visible;
+}
+
+/*.navItem img{
+    height: 50px;
+    margin-left: 25px;
+}*/
+
+.accountInfoButton ul li{
+    color: #ffffff;
+    position: relative;
+    width: 180px;
+    display: block;
+    height: 53px;
+    top: 1px;
+}
+
+.accountInfoButton ul li *{
+    position: relative;
+    vertical-align: middle;
+}
+
+.accountInfoButton ul li:hover{
+    background: #16bcec;
+}
+
+.logoutContainer{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    float: right;
+    left: 50px;
+    top: -50px;
+    
+}
+
+.logoutContainer p{
+    height: 50px;
+    background: url('pictures/header_pictures/logout.png') 0px 0px no-repeat;
+    background-size: cover;
+}
+
+.logoutContainer p:hover{
+    height: 50px;
+    background: url('pictures/header_pictures/logout.png') -50px 0px no-repeat;
+    background-size: cover;
+}
+
+
+
+.animateSlide{
+    -webkit-transition: all 0.01s ease-in-out;
+    -moz-transition: all 0.01s ease-in-out;
+    -o-transition: all 0.01s ease-in-out;
+    transition: all 0.01s ease-in-out;
+}
